@@ -15,7 +15,7 @@ import {
     Tr,
     useBreakpointValue
 } from '@chakra-ui/react';
-import { RiAddLine} from 'react-icons/ri';
+import { RiAddLine } from 'react-icons/ri';
 import { Header } from '../../components/Header';
 import { Pagination } from '../../components/Pagination';
 import { Sidebar } from '../../components/Sidebar';
@@ -106,7 +106,11 @@ export default function UserList() {
                                 </Tbody>
                             </Table>
 
-                            <Pagination />
+                            <Pagination
+                                totalCountOfRegisters={200}
+                                currentPage={5}
+                                onPageChange={() => { }}
+                            />
                         </>
                     )}
                 </Box>
