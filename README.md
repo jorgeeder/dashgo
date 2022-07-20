@@ -47,7 +47,11 @@ Interface of an administrative panel using Chakra UI in Next.js and to improve t
 
 ## Application in Use
 
-🚧 Under construction... 🚧
+![login](./docImages/login.png)
+![dashboard](./docImages/dashboard.png)
+![user list](./docImages/userList.png)
+![userRegistration](./docImages/userRegistration.png)
+![new registered user](./docImages/newRegisteredUser.png)
 
 
 ## Requirement
